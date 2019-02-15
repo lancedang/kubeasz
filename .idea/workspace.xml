@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fa8f728-5413-4bfe-9124-67184b941ea9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/alipay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/allow_from_external.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/cilium_http_gsg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/cilium_http_l3_l4_gsg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/cilium_http_l3_l4_l7_gsg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/deny_from_other_namespaces.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/grafana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/influxdb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/wxpay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/qiankai02.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kubeasz.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01.prepare.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02.etcd.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03.docker.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04.kube-master.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05.kube-node.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-6.network-macvlan.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06.network.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07.cluster-addon.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.harbor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20.addnode.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21.addmaster.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/22.upgrade.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/23.backup.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24.restore.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/90.setup.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/99.clean.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/chrony.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/dashboard.1.6.3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/dashboard.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/efk.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/harbor.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/heapster.1.4.3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/heapster.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/helm.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/hpa.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/ingress-tls.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/ingress.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/ipvs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/istio.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/jenkins.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/kernel_upgrade.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/kubedns.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/metallb.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/metrics-server.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/networkpolicy.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/nfs-server.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/prometheus.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/guide/rollingupdateWithZeroDowntime.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/01.fix_kubelet_annoymous_access.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/DoneList.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/HowToContribute.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/TodoList.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/branch.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/mixes/donate.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/AddMaster.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/AddNode.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/ChangeVIP.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/ch_apiserver_cert.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/change_ip_allinone.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/change_k8s_network.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/cluster_restore.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/del_one_node.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/loadballance_ingress_nodeport.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/op-index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/readonly_kubectl.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/op/upgrade.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/practice/es_cluster.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/practice/java_war_app.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.1.0.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.2.0.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.2.1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.2.2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.3.0.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.3.1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.4.0.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/release-notes/kubeasz-0.5.0.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/00-planning_and_overall_intro.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/01-CA_and_prerequisite.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/02-install_etcd.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/03-install_docker.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/04-install_kube_master.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/05-install_kube_node.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/06-install_network_plugin.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/07-install_cluster_addon.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/08-cluster-storage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/config_guide.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/kubeasz_on_public_cloud.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/network-plugin/calico.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/network-plugin/cilium.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/network-plugin/flannel.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/network-plugin/kube-router.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/setup/quickStart.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/down/download.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/down/offline_images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.allinone.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.allinone.example.en" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.cloud.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.cloud.example.en" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.m-masters.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.m-masters.example.en" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.s-master.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/hosts.s-master.example.en" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/1.6.3/kubernetes-dashboard.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/admin-user-sa-rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/kubernetes-dashboard.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/read-user-sa-rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/ui-admin-rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/dashboard/ui-read-rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-dynamic-pv/es-statefulset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-static-pv/es-pv0.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-static-pv/es-pv1.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-static-pv/es-pv2.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-static-pv/es-statefulset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/es-without-pv/es-statefulset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/fluentd-es-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/fluentd-es-ds.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/kibana-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/efk/kibana-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/.helmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/Chart.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/OWNERS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/_helpers.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/client-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/client-pdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/client-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/data-pdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/data-statefulset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/master-pdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/master-statefulset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/templates/master-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/elasticsearch/values.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/es-cluster/es-values.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/grafana.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/heapster.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/influxdb-v1.1.1/influxdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/influxdb-with-pv/influxdb-pv.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/influxdb-with-pv/influxdb-pvc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/influxdb-with-pv/influxdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/heapster/influxdb.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/nginx-ingress/nginx-ingress-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/nginx-ingress/nginx-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/nginx-ingress/tcp-services-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/nginx-ingress/udp-services-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/test-hello.ing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/traefik/tls/hello-tls.ing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/traefik/tls/k8s-dashboard.ing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/traefik/tls/traefik-controller.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/traefik/traefik-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/ingress/traefik/traefik-ui.ing.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/.helmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/Chart.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/OWNERS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/_helpers.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/config.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/home-pvc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-agent-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-master-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-master-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-master-networkpolicy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-master-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jenkins-test.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/jobs.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/secret.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/service-account.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/templates/test-config.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/jenkins/values.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/auth-delegator.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/auth-reader.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/metrics-apiservice.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/metrics-server-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/metrics-server-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/metrics-server/resource-reader.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana-dashboards.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana-settings.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/Chart.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/_helpers.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/clusterrole.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/clusterrolebinding.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/configmap-dashboard-provider.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/dashboards-json-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/podsecuritypolicy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/pvc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/role.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/rolebinding.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/secret.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/templates/serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/grafana/values.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prom-alertrules.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prom-alertsmanager.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prom-settings.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/.helmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/Chart.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/OWNERS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/_helpers.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-networkpolicy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-pvc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/alertmanager-serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-clusterrole.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-clusterrolebinding.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-networkpolicy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/kube-state-metrics-svc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/node-exporter-daemonset.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/node-exporter-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/node-exporter-serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/pushgateway-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/pushgateway-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/pushgateway-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/pushgateway-serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-clusterrole.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-clusterrolebinding.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-configmap.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-deployment.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-ingress.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-networkpolicy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-pvc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-service.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/templates/server-serviceaccount.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/prometheus/prometheus/values.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifests/storage/test.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/templates/calico-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/templates/calico-rbac.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/templates/calico.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/calico/templates/calicoctl.cfg.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/chrony.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/templates/client-centos.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/templates/client-ubuntu.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/templates/server-centos.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/chrony/templates/server-ubuntu.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/files/star_war_example/http-sw-app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/files/star_war_example/sw_l3_l4_l7_policy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/files/star_war_example/sw_l3_l4_policy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/templates/cilium-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cilium/templates/cilium.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/tasks/ingress.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/templates/coredns.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/templates/kubedns.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/templates/metallb/bgp.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/templates/metallb/layer2.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-addon/templates/metallb/metallb.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-backup/files/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-backup/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-restore/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-restore/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/cluster-storage.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/files/alicloud-disk.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/tasks/alicloud-nas.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/tasks/nfs-client.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/templates/alicloud-nas/alicloud-nas.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/cluster-storage/templates/nfs/nfs-client-provisioner.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/create-admin-kubeconfig.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/create-read-kubeconfig.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/files/read-group-rbac.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/templates/admin-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/templates/ca-config.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/templates/ca-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/templates/kube-proxy-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/deploy/templates/read-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/files/docker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/files/docker-tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/templates/daemon.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/docker/templates/docker.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/etcd/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/etcd/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/etcd/templates/etcd-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/etcd/templates/etcd.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/flannel/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/flannel/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/flannel/templates/kube-flannel.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/harbor/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/harbor/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/harbor/templates/harbor-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/harbor/templates/harbor.cfg.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/helm.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/templates/helm-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/templates/helm-rbac.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/templates/strict-helm-rbac.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/helm/templates/tiller-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/aggregator-proxy-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/basic-auth.csv.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/kube-apiserver-v1.8.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/kube-apiserver.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/kube-controller-manager.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/kube-scheduler.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-master/templates/kubernetes-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/templates/cni-default.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/templates/kube-proxy.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/templates/kubelet-csr.json.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-node/templates/kubelet.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-router/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-router/kube-router.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-router/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-router/templates/kuberouter-all.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/kube-router/templates/kuberouter.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/lb.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/templates/haproxy.cfg.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/templates/haproxy.service.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/templates/keepalived-backup.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/lb/templates/keepalived-master.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/macvlan/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/macvlan/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/macvlan/templates/kube-flannel.yaml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/os-harden.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/apt.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/auditd.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/find_files.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/hardening.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/limits.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/login_defs.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/minimize_access.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/modprobe.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/pam.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/profile.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/rhosts.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/securetty.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/suid_sgid.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/sysctl.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/user_accounts.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/tasks/yum.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/audit/auditd.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/default/ufw.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/initramfs-tools/modules.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/login.defs.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/modprobe.d/modprobe.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/pam.d/rhel_system_auth.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/profile.d/profile.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/rhel_libuser.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/securetty.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/etc/sysconfig/rhel_sysconfig_init.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/usr/share/pam-configs/pam_passwdqd.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/os-harden/templates/usr/share/pam-configs/pam_tally2.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/tasks/centos.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/tasks/common.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/tasks/debian.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/templates/30-kubeasz.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/prepare/templates/95-k8s-sysctl.conf.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/basic-env-setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/change_ip_aio.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/change_k8s_network.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/clean_one_node.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/easzctl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/init_vars.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/trans_yml.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/yc-ssh-key-copy.sh" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/docker/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kube-apiserver.service.j2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/kube-master/templates/kube-apiserver.service.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/roles/kube-master/defaults/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bin_dir</find>
+      <find>item</find>
+      <find>cfssl</find>
+      <find>cfssl gencert -initca</find>
+      <find>-ca=</find>
+      <find>kubectl config</find>
+      <find>inventory_hostname</find>
+      <find>MASTER_IP</find>
+      <find>kube-master</find>
+      <find>flanneld_image</find>
+      <find>flannel_offline</find>
+      <find>10-flannel</find>
+      <find>kube-flannel.yaml.j2</find>
+      <find>NODE_NAME</find>
+      <find>ETCD_NODES</find>
+      <find>system:masters</find>
+      <find>ETCD_ENDPOINTS</find>
+      <find>SERVICE_CIDR</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3367d512ad5dba3ef3cdfa5815773bbf51ea7b8b" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/roles/etcd/templates/etcd-csr.json.j2" />
+        <option value="$PROJECT_DIR$/06.network.yml" />
+        <option value="$PROJECT_DIR$/roles/macvlan/templates/kube-flannel.yaml.j2" />
+        <option value="$PROJECT_DIR$/roles/macvlan/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/06-6.network-macvlan.yml" />
+        <option value="$PROJECT_DIR$/roles/kube-master/templates/kube-apiserver.service.j2" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\local\mvnrepo" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="832" />
+    <option name="width" value="1094" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-master" type="462c0819:PsiDirectoryNode" />
+              <item name="defaults" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-master" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubeasz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubeasz" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="kube-master" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\kubeasz" />
+      <recent name="D:\IdeaProjects\kubeasz\roles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fa8f728-5413-4bfe-9124-67184b941ea9" name="Default" comment="" />
+      <created>1546841506541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546841506541</updated>
+      <workItem from="1546841507883" duration="4210000" />
+      <workItem from="1547522910501" duration="725000" />
+      <workItem from="1547547489528" duration="699000" />
+      <workItem from="1549079814541" duration="3858000" />
+      <workItem from="1549086486480" duration="21881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31373000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17826086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1337953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/roles/deploy/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.prepare.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/prepare/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.prepare.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/prepare/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.prepare.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/prepare/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/ca/templates/ca-csr.json.j2" />
+    <entry file="file://$PROJECT_DIR$/roles/ca/templates/ca-config.json.j2" />
+    <entry file="file://$PROJECT_DIR$/roles/ca/tasks/main.yml" />
+    <entry file="file://$PROJECT_DIR$/roles/deploy/templates/ca-config.json.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy/templates/ca-csr.json.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/deploy/templates/admin-csr.json.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/prepare/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/lb/templates/haproxy.cfg.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/lb/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/release-notes/kubeasz-0.1.0.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/hosts.m-masters.example.en">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/flannel/templates/kube-flannel.yaml.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/macvlan/templates/kube-flannel.yaml.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-6.network-macvlan.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/macvlan/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/macvlan/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24.restore.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.network.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.docker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/flannel/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20.addnode.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.cluster-addon.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/cluster-addon/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/cluster-addon/tasks/ingress.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/cluster-addon/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/flannel/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.prepare.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/prepare/tasks/centos.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.etcd.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/etcd/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/etcd/templates/etcd.service.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/etcd/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/etcd/templates/etcd-csr.json.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/docker/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/kube-master/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/kube-master/templates/kube-apiserver.service.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/kube-master/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
